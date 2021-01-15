@@ -30,10 +30,10 @@ docker run -p 3000:3000 -d webcrawler
 ```
 
 ## Usage
-If you want to crawl the url *http://www.buildit.wiprodigital.com* till a depth of 3 levels hit a *GET* request as shown below:
+If you want to crawl the url *http://buildit.wiprodigital.com* till a depth of 3 levels hit a *GET* request as shown below:
 
 ```
-http://localhost:3000/crawl?url=http://www.buildit.wiprodigital.com&depth=3
+http://localhost:3000/crawl?url=http://buildit.wiprodigital.com&depth=3
 ```
 
 ## Configuration
