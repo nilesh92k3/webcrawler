@@ -5,6 +5,17 @@ Webcrawler is web crawling spider service written in Nodejs using the axios and 
 ## Algorithm
 The crawler takes two parameters *startUrl* and *depth*. Essentially the crawler follows a Breadth First Search traversal where it first crawls the starting url, then crawls all the child urls (urls present on the current page being crawled), then crawls the subsequent children of the child urls and so on, thus recursively crawling till the required depth is reached or until it cannot find any more new links. External links are not crawled.
 
+1.) Enqueue starting url.
+2.) Mark starting url as seen.
+3.) Pop all the urls from queue.
+4.) Crawl all the popped urls from step 3.
+5.) Find all links fetched from step4.
+6.) Filter out invalid urls.
+7.) Enqueue all the fetched internal urls.
+8.) Mark the enqueued urls as seen.
+9.) If queue is not empty and we have not yet reached the required depth go to step 3 .
+10.) return the internal urls and the external urls.
+
 ## Build and run the crawler service
 ### Pre-requisites
 You must either have (**Node** and **NPM**) or **Docker** installed on your system
