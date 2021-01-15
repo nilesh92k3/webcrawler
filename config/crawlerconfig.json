@@ -1,0 +1,5 @@
+{
+    "MAX_CONNS": 30,
+    "CONNECTION_TIMEOUT": 20000,
+    "SLEEP_TIME": 5000 
+}
