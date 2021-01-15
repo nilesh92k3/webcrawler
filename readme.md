@@ -8,6 +8,7 @@ The crawler takes two parameters *startUrl* and *depth*. Essentially the crawler
 ## Build and run the crawler service
 ### Pre-requisites
 You must either have (**Node** and **NPM**) or **Docker** installed on your system
+Checkout code from the master branch, then go into the project directory and run the following commands.
 #### 1. To run using Node:
 You simply need to run *npm install* and *node .*
 
