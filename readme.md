@@ -50,6 +50,11 @@ If you want to crawl the url *http://buildit.wiprodigital.com* till a depth of 3
 http://localhost:3000/crawl?url=http://buildit.wiprodigital.com&depth=3
 ```
 
+## Response structure
+```
+{"internalLinks":["http://buildit.wiprodigital.com","http://buildit.wiprodigital.com/about/","http://buildit.wiprodigital.com/careers/","http://buildit.wiprodigital.com/locations/","http://buildit.wiprodigital.com/","https://wiprodigital.com/privacy-policy"],"externalLinks":["https://medium.com/buildit","https://medium.com/buildit/","https://www.instagram.com/buildit_tech","https://twitter.com/buildit_tech","https://www.linkedin.com/company/buildit.","https://github.com/buildit"]}
+```
+
 ## Configuration
 The crawler configurations can be found in *config/crawlerconfig.json*. 
 
