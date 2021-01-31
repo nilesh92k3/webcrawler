@@ -1,0 +1,7 @@
+{
+    "build_it": "<!DOCTYPE html> <html> <body> <h1>BuildIt</h1> <p><a href='/about/'>About</a></p> <p><a href='/careers/'>Careers</a></p> </body> </html>",
+    "about": "<!DOCTYPE html> <html> <body> <h1>About</h1> <p><a href='/privacypolicy/'>Privacy Policy</a></p> <p><a href='https://medium.com/buildit'>Medium Articles</a></p> </body> </html>",
+    "careers": "<!DOCTYPE html> <html> <body> <h1>Careers</h1> <p><a href='/#the-hiring-process'>Hiring Process</a></p> <p><a href='/locations/'>Locations</a></p> </body> </html>",
+    "locations": "<!DOCTYPE html> <html> <body> <h1>Locations</h1> <p>Bangalore</p> <p>Mumbai</p> <p>New York</p> <p>London</p> <p>Berlin</p> <p><a href='/careers/'>Careers</a></p> </body> </html>",
+    "privacy_policy": "<!DOCTYPE html> <html> <body> <h1>About</h1> <p><a href='/privacypolicy/'>Privacy Policy</a></p> <p><a href='https://medium.com/buildit'>Medium Articles</a></p> </body> </html>"
+}
