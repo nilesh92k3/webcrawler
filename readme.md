@@ -43,6 +43,11 @@ docker build -t webcrawler .
 docker run -p 3000:3000 -d webcrawler
 ```
 
+## To run unit tests
+```bash
+npm test
+```
+
 ## Usage
 If you want to crawl the url *http://buildit.wiprodigital.com* till a depth of 3 levels hit a *GET* request as shown below:
 
